@@ -1,0 +1,41 @@
+{
+    "name": "lukasbableck/contao-select-placeholder-bundle",
+    "type": "contao-bundle",
+	"description": "This bundle adds a placeholder option to the select fields in the Contao backend.",
+	"keywords": [
+		"contao",
+		"form",
+		"select",
+		"field",
+		"placeholder",
+		"dropdown",
+		"option"
+	],
+    "license": "LGPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Lukas Bableck",
+			"email": "lukas@bableck.dev",
+			"homepage": "https://bableck.dev"
+		}
+	],
+    "require": {
+        "php": "^8.1",
+        "contao/core-bundle": "^5.3"
+    },
+	"conflict": {
+		"contao/manager-plugin": "<2.0 || >=3.0"
+	},
+	"require-dev": {
+		"contao/manager-plugin": "^2.0",
+		"friendsofphp/php-cs-fixer": "^3.57"
+	},
+    "autoload": {
+        "psr-4": {
+            "Lukasbableck\\ContaoSelectPlaceholderBundle\\": "src/"
+        }
+    },
+	"extra": {
+		"contao-manager-plugin": "Lukasbableck\\ContaoSelectPlaceholderBundle\\ContaoManager\\Plugin"
+	}
+}
