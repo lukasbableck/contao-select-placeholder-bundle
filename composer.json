@@ -1,7 +1,7 @@
 {
     "name": "lukasbableck/contao-select-placeholder-bundle",
     "type": "contao-bundle",
-	"description": "This bundle adds a placeholder option to the select fields in the Contao backend.",
+	"description": "This bundle adds a placeholder option to the select form fields in the Contao form generator.",
 	"keywords": [
 		"contao",
 		"form",
