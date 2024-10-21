@@ -25,7 +25,7 @@
   	<?php
 	if($this->placeholder){
 		?>
-		<option value="" selected disabled hidden><?= $this->placeholder ?></option>
+		<option value="" selected disabled><?= $this->placeholder ?></option>
 		<?php
 	}
 	?>
